@@ -14,10 +14,12 @@ export const DisplayLocaleMinions: React.FC<DisplayLocalMinionProps> = ({ locale
   }).map(([minion]) => minion)
 
   return (
-    <>
-      {minions.map(minion => (
-        <div key={minion}>{minion}</div>
-      ))}
-    </>
+    <div className="content">
+      <ul>
+        {minions.map(minion => (
+          <li key={minion}>{minion}</li>
+        ))}
+      </ul>
+    </div>
   );
 }
