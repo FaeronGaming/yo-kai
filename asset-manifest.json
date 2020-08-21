@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yo-kai/static/css/main.523f09c5.chunk.css",
+    "main.js": "/yo-kai/static/js/main.62c05155.chunk.js",
+    "main.js.map": "/yo-kai/static/js/main.62c05155.chunk.js.map",
+    "runtime-main.js": "/yo-kai/static/js/runtime-main.a6804896.js",
+    "runtime-main.js.map": "/yo-kai/static/js/runtime-main.a6804896.js.map",
+    "static/js/2.c62baa40.chunk.js": "/yo-kai/static/js/2.c62baa40.chunk.js",
+    "static/js/2.c62baa40.chunk.js.map": "/yo-kai/static/js/2.c62baa40.chunk.js.map",
+    "index.html": "/yo-kai/index.html",
+    "precache-manifest.5a2d75420ff25589f4c38df0895cab02.js": "/yo-kai/precache-manifest.5a2d75420ff25589f4c38df0895cab02.js",
+    "service-worker.js": "/yo-kai/service-worker.js",
+    "static/css/main.523f09c5.chunk.css.map": "/yo-kai/static/css/main.523f09c5.chunk.css.map",
+    "static/js/2.c62baa40.chunk.js.LICENSE.txt": "/yo-kai/static/js/2.c62baa40.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/yo-kai/static/media/logo.ee7cd8ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6804896.js",
+    "static/js/2.c62baa40.chunk.js",
+    "static/css/main.523f09c5.chunk.css",
+    "static/js/main.62c05155.chunk.js"
+  ]
+}
