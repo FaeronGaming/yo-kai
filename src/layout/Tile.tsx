@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 import classnames from 'classnames';
-import { Link } from 'react-router-dom';
 
 interface ComponentProps {
   className?: string

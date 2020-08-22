@@ -20,9 +20,7 @@ export enum Yokai {
   Usapyon = "USApyon",
 }
 
-type MinionLocation = Record<Yokai, Location[]>;
-
-export const minionLocations: MinionLocation = {
+export const minionLocations: { [key: string]: Location[] } = {
   [Yokai.Shogunyan]: [Location.EShroud, Location.CThanalan, Location.LLaNoscea],
   [Yokai.Jibanyan]: [Location.CShroud, Location.CThanalan, Location.LLaNoscea],
   [Yokai.Hovernyan]: [Location.SShroud, Location.EThanalan, Location.WLaNoscea],
@@ -40,4 +38,24 @@ export const minionLocations: MinionLocation = {
   [Yokai.Komasan]: [Location.EShroud, Location.EThanalan, Location.WLaNoscea],
   [Yokai.Komajiro]: [Location.EShroud, Location.CThanalan, Location.WLaNoscea],
   [Yokai.Noko]: [Location.NShroud, Location.SThanalan, Location.OLaNoscea],
+};
+
+export const minionJobs: { [key: string]: string } = {
+  [Yokai.Shogunyan]: "PLD",
+  [Yokai.Jibanyan]: "WAR",
+  [Yokai.Hovernyan]: "DRK",
+  [Yokai.LordEnma]: "GNB",
+  [Yokai.Usapyon]: "MNK",
+  [Yokai.Venoct]: "DRG",
+  [Yokai.Kyubi]: "NIN",
+  [Yokai.Zazel]: "SAM",
+  [Yokai.Whisper]: "BRD",
+  [Yokai.Robonyan]: "MCH",
+  [Yokai.Damona]: "DNC",
+  [Yokai.Blizzaria]: "BLM",
+  [Yokai.Manjimutt]: "SMN",
+  [Yokai.LordAnanta]: "RDM",
+  [Yokai.Komasan]: "WHM",
+  [Yokai.Komajiro]: "SCH",
+  [Yokai.Noko]: "AST",
 };
