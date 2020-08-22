@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yo-kai/precache-manifest.5a2d75420ff25589f4c38df0895cab02.js"
+  "/yo-kai/precache-manifest.abf23d28eaa582fde9616b6371e6bb08.js"
 );
 
 self.addEventListener('message', (event) => {
