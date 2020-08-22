@@ -9,8 +9,15 @@ interface ToggleableRowProps {
   isDisabled: boolean;
 }
 
+const transparancy = 0.45;
+
+const Table = styled.table`
+  background-color:rgba(255,255,255,${transparancy});
+  font-weight: 700;
+`;
+
 const ToggleableRow = styled.tr<ToggleableRowProps>`
-  ${({ isDisabled }) => isDisabled ? 'background-color: darkgray;' : ''}
+  ${({ isDisabled }) => isDisabled ? `background-color:rgba(169,169,169,${transparancy});` : ''}
   text-decoration: ${({ isDisabled }) => isDisabled ? 'line-through': 'none' };
 `;
 
@@ -21,7 +28,7 @@ export const Tracker: React.FC = () => {
     <Section>
       <h2 className="title">Tracker</h2>
       <Container>
-        <table className="table">
+        <Table className="table">
           <thead>
             <tr>
               <td>Class</td>
@@ -71,7 +78,7 @@ export const Tracker: React.FC = () => {
               );
             })}
           </tbody>
-        </table>
+        </Table>
       </Container>
     </Section>
   );
